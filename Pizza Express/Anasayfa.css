@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-image: linear-gradient(rgba(255, 247, 103, 0.971), rgb(255, 178, 178), rgb(174, 215, 255));
+    background-attachment: fixed;
+    background-size: cover;
+}
+.baglantilar a{
+    text-decoration: none;
+
+}
+.l{
+    display: flex;
+    height: 50px;
+    position:absolute;
+    left: 15px;
+    top: 25px;
+}
+.g{
+    display: flex;
+    height: 75px;
+    position:absolute;
+    left: 70px;
+    top: 12px;
+}
+.logo{
+    display: flex;
+    height: 25%;
+    position: absolute;
+    top: 20px;
+    justify-content: center;
+    right:675px;
+}
+.since{
+    display: flex;
+    height: 25%;
+    position: absolute;
+    top: 250px;
+    left: 360px;
+}
+.yil{
+    display: flex;
+    height: 20%;
+    position: absolute;
+    top: 370px;
+    right: 450px;
+}
+.yazi1{
+    display: flex;
+    font-size: 150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 600px;
+    background-image: linear-gradient(to right, green,white,white,red);
+    padding: 5px;
+    color:black;
+}
+.yazi2{
+    display: flex;
+    font-size: 120%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    
+}
+.yazi3{
+    display: flex;
+    font-size: 120%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    
+}
+.pizza1{
+    display: flex;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+.pizza2{
+    display: flex;
+    height: 293px;
+    position: absolute;
+    top: 430px;
+    right: 50px;
+}
+.linkler ul li{
+    display: inline-flex;
+    position: absolute;
+    list-style: none;
+}
+.linkler ul li a{
+    text-decoration: none;
+    color:rgb(255, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.l1{
+    position: absolute;
+    bottom: 280px;
+    right: 400px;
+}
+.l2{
+    position: absolute;
+    bottom: 300px;
+    left: 415px;
+}
+.l3{
+    position: absolute;
+    bottom: 300px;
+    left: 560px;
+}
+.linkler ul li a:hover{
+    transition: 1.3s;
+    font-size: 150%;
+    box-shadow: 0px 3px red;
+
+}

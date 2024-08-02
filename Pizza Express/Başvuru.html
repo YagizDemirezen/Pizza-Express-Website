@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bizimle Çalışın!</title>
+        <link rel="stylesheet" href="Başvuru.css">
+        <link rel="icon" href="resimler/pizzaex.png" type="png">
+    </head>
+    <body>
+        <a class="logo1" href="Anasayfa.html">
+            <img src="resimler/pizzaex.png" class="logo">
+        </a>
+
+        <h1 class="p">Pizza Express - Başvuru Alanı</h1>
+
+        <form class="form">
+            <table>
+                
+                <tr>
+                    <td class="yazi">Adınız:</td>
+                    <td>
+                        <input type="text" required class="t">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="yazi">Soyadınız:</td>
+                    <td>
+                        <input type="text" required class="t">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="yazi">Telefon Numarası:</td>
+                    <td>
+                        <input type="tel" required placeholder="(___) (_______)" class="t">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="yazi">E-Mailiniz:</td>
+                    <td>
+                        <input type="email" required placeholder="Pizzaex@gmail.com" class="t">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="cinsiyet">Cinsiyetiniz:</td>
+                    <td>
+                        <input type="radio" name="cinsiyet" required class="c1">
+                        <input type="radio" name="cinsiyet" required class="c2">
+                    </td>
+                </tr>
+                <p class="e">Erkek</p>
+                <p class="k">Kadın</p>
+                <tr>
+                    <td class="yazi">Doğum Tarihi:</td>
+                    <td>
+                        <input type="date" required class="dogum">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="yazi">Neden Bizi Seçtiniz?</td>
+                    <td>
+                        <textarea class="txtarea" rows="5" cols="20"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" required class="box">
+                        <p class="kkvk">KVKK'yı Okudum ve Onaylıyorum.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Başvur" required class="b" onclick="uyari()">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <script>
+            function uyari()
+            {
+                alert("Başvurunuz Gönderildi!");
+            }
+        </script>
+    </body>
+</html>
